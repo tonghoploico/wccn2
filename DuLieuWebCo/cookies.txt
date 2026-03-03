@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+phamthiyen.com	TRUE	/	FALSE	1999999999	PHPSESSID	r5554etk2avj11kd63n35toa23
+.google.com	TRUE	/	FALSE	1999999999	NID	529=JzpU13svvgXjE9C8SFGr6MEZM1WSUQNBa8_oZx21TvpsJtik3oSwqBn0ETYyWfjW2aYwkQVbL_8qVz230YL9XuX-qAktnxXzMTIR_nB_CZFvy7REVM-AAvG7a88QVRe3LFuQu2jDssGDorPpFV83s2qHEvatUEwhh9VrcmUgD_XwFZTIzbwCgrVPMYWCJ1JRduL_lpHjHkebthXKV-dDlQ
+
