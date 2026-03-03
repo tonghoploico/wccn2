@@ -1,0 +1,1751 @@
+<!doctype html>
+<html lang="vi">
+
+
+<!-- Mirrored from phamthiyen.com/tu-nhiep-phap-c6151.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Feb 2026 16:40:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="templates/themes/images/clb-cuc-vang-tap-tu-luc-hoa-round-logo-transparent-5-500x500.png" sizes="32x32" />
+    <style type="text/css">@font-face {font-family:Merriweather;font-style:normal;font-weight:300;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic-ext/300/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:300;src:url(cf-fonts/s/merriweather/5.0.11/latin-ext/300/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:300;src:url(cf-fonts/s/merriweather/5.0.11/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:300;src:url(cf-fonts/s/merriweather/5.0.11/vietnamese/300/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:300;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic/300/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:400;src:url(cf-fonts/s/merriweather/5.0.11/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:400;src:url(cf-fonts/s/merriweather/5.0.11/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:400;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:400;src:url(cf-fonts/s/merriweather/5.0.11/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:400;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:700;src:url(cf-fonts/s/merriweather/5.0.11/latin-ext/700/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:700;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:700;src:url(cf-fonts/s/merriweather/5.0.11/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:700;src:url(cf-fonts/s/merriweather/5.0.11/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Merriweather;font-style:normal;font-weight:700;src:url(cf-fonts/s/merriweather/5.0.11/vietnamese/700/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+    <style type="text/css">@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:300;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:400;src:url(cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(cf-fonts/v/montserrat/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(cf-fonts/v/montserrat/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(cf-fonts/v/montserrat/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Montserrat;font-style:normal;font-weight:700;src:url(cf-fonts/v/montserrat/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}</style>
+    
+    <meta name="google-site-verification" content="lSyoe9Zwj_WHhtKDefwFKJGo5IsSd0o9UIJlx2TWPmQ" />
+
+    <link rel="stylesheet" href="templates/themes/css/select2.min.css">
+    <link rel="stylesheet" href="templates/themes/css/slick-theme.min.css">
+    <link rel="stylesheet" href="templates/themes/css/slick.min.css">
+    <link rel="stylesheet" href="templates/themes/css/all.mindaf2.css?0.0.335">
+    <link rel="stylesheet" href="templates/themes/css/aos.css">
+    <link rel="stylesheet" href="templates/themes/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="templates/themes/css/fonts17bb.css?v0.0.335">
+    <link rel="stylesheet" href="templates/themes/css/pagination.css">
+    <link rel="stylesheet" href="templates/themes/css/jquery.toast.css">
+    <link rel="stylesheet" href="templates/themes/css/main5462.css?1770900267">
+    <link rel="stylesheet" href="templates/themes/css/style5462.css?1770900267">
+    <link rel="stylesheet" href="templates/themes/css/default-vi.css">
+    <link rel="stylesheet" href="templates/themes/css/default_gg.css">
+    <style type="text/css">
+        .bg-comment-like {
+            width: 33px;
+            height: 33px;
+            display: flex;
+            background: #1877f2;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: #fff;
+            border: 1px solid #1877f2;
+        }
+
+        .bg-comment-like.news_liked {
+            background: #ffffff;
+            color: #1877f2;
+        }
+        .numlike {    margin: 0px 20px 0px 5px;}
+        .cy-carousel-newspty .card-body {
+            max-height: 225px;
+            overflow: hidden;
+        }
+        .comment-text a {
+            color: #0000d0;
+        }
+        .search-icon {
+            color: #fff;
+        }
+        .comment-text {
+            text-align: justify;
+        }
+        a.show_allcmt_child {
+            text-align: right;
+            display: block;
+            font-size: 15px;
+            color: #2100cd;
+        }
+        ol.children .readmore_child {
+            display: none;
+        }
+        .inlinemb {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .navmb_brea i.br_separator {
+            font-weight: 600;
+            color: #1d7b1d;
+            font-size: 16px;
+            padding: 0px;
+        }
+        .list_sitebarmb {
+            width: calc(100% + 20px);
+            display: none !important;
+            position: absolute;
+            z-index: 100;
+            background: #ffffff;
+            border-radius: 15px;
+            top: 100%;
+            padding: 10px;
+            right: -10px;
+            left: -10px;
+            box-shadow: 0px 6px 8px 0px #559f55;
+
+        }
+        .list_sitebarmb.op {
+            display: block !important;
+        }
+        .list_sitebarmb ul {
+            list-style: none;
+            padding: 0px;
+            width: 100%;
+            margin: auto;
+        }
+        .navmb_brea {margin-left: 15px;}
+        ul#menu-side-menu {
+            margin-bottom: 25px;
+        }
+        @media (max-width: 767px) {
+            .menu-short { display: block !important;}
+        }
+        
+    </style>
+    <link rel="alternate" href="index.html" hreflang="vi" />
+    <meta name="p:domain_verify" content="ed9402b96df4d87635b941a842d9b826" />
+    
+    <meta name="google-site-verification" content="yuYF5MoL4p__j0Y4J3dX8OPjNp0jZnwH5k9xFdHAIdE" />
+    
+    <meta property="og:type" content="article" /><meta property="og:title" content="Tứ nhiếp pháp là gì? 4 cách Phật dạy để lãnh đạo đại chúng" /><meta property="og:url" content="https://phamthiyen.com/tu-nhiep-phap-c6151.html" /><meta property="og:description" content="Tứ nhiếp pháp là bốn phương pháp để thu phục và khiến đại chúng quy thuận; gồm bố thí nhiếp, ái ngữ nhiếp, lợi hành nhiếp và đồng sự nhiếp." /><meta property="og:image" content="https://media.phamthiyen.com/files/news/2025/11/24/tu-nhiep-phap-141926.jpg" /><meta property="article:author" content="" /><meta property="article:section" content="News" /><meta property="article:tag" content="tứ nhiếp pháp" /><link rel="amphtml" href="tu-nhiep-phap-d6151.html"><link rel="canonical" href="tu-nhiep-phap-c6151.html"><script type="application/ld+json">{"@context": "http://schema.org","@type": "BreadcrumbList","itemListElement": [{"@type": "ListItem","position": 1,"item": {"@id": "https://phamthiyen.com","name": "Trang chủ"}},{"@type": "ListItem","position": 2,"item": {"@id": "https://phamthiyen.com/bai-viet-phat-phap","name": "Bài Viết Phật Pháp"}},{"@type": "ListItem","position": 3,"item": {"@id": "https://phamthiyen.com/kien-thuc-phat-phap","name": "Kiến Thức Phật Pháp"}}]}</script><meta name="robots" content="index,follow" /><meta name="news_keywords" content="tứ nhiếp pháp"/>
+<link rel="stylesheet" type="text/css" href="lib/explus/explusee2f.css?v=0.2.0" />
+    <title>Tứ nhiếp pháp là gì? 4 cách Phật dạy để lãnh đạo đại chúng</title>
+    <meta name="description" content="Tứ nhiếp pháp là bốn phương pháp để thu phục và khiến đại chúng quy thuận; gồm bố thí nhiếp, ái ngữ nhiếp, lợi hành nhiếp và đồng sự nhiếp." />
+    <meta name="keywords" content="tứ nhiếp pháp" />
+    <meta name="alexaVerifyID" content="IyOAWrtFdNQSVZO_gDBWnsEy8n8" />
+    <meta name="AUTHOR" content="Phạm Thị Yến" />
+    <meta name="COPYRIGHT" content="Phạm Thị Yến" />
+    <meta property="fb:admins" content="100009380181859" />
+    <meta property="fb:pages" content="" />
+    <meta property="fb:app_id" content="774462843172727" />
+
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DQGXWHZPEX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DQGXWHZPEX');
+</script>    
+    <script src="templates/themes/js/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<body class="page-template page cy-bg">
+    <div class="wrapper overflow-hidden-" id="wrapper">
+    <style>
+    #form_id {
+        display: none;
+    }
+
+    .dis-block {
+        display: block !important;
+    }
+    #menu-side-menu i.icon-search {
+        font-size: 22px;
+        color: #fff;
+    }
+</style>
+<!-- <div class="info hide">123</div> -->
+<header class="header" style="z-index: 1200;">
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="brand">
+                <div class="h3 text-uppercase mb-0">Phạm Thị Yến</div>
+                <p class="h6 text-uppercase mb-0">Tâm Chiếu Hoàn Quán</p>
+                <a href="index.html" title="Phạm Thị Yến"></a>
+            </div>
+            <div class="d-flex align-items-center topheaderpc">
+                <nav class="head-menu nav-menu">
+                    <!-- categories -->
+                    <ul id="menu-menu-chinh" class="menu">
+                        <li class="menu-item ">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a target="_self" class="icon-cac-van-de-ve-doi-song fa-2x" href="index.html"></a>
+                        </li>
+
+                        <!-- <li class="menu-item" data-url="">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="/gioi-thieu" target="_self">
+                                <span>Giới Thiệu</span>
+                            </a>
+                        </li> -->
+                                                <li class="menu-item " data-url="clb-cuc-vang.html">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="clb-cuc-vang.html" class="" target="_self">
+                                <span>
+                                    CLB Cúc Vàng                                </span>
+                            </a>
+                                                        <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                    <a href="index.html" class=""><span>Giới Thiệu CLB Cúc Vàng</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="hoat-dong-phat-su.html" class=""><span>Hoạt Động Phật Sự</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="an-sinh-xa-hoi.html" class=""><span>An Sinh Xã Hội</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="kien-thuc-danh-cho-phat-tu-clb-cuc-vang.html" class=""><span>Kiến Thức Dành Cho Phật Tử CLB Cúc Vàng</span></a>
+
+                                                                    </li>
+                                                            </ul>
+                                                    </li>
+                                                <li class="menu-item " data-url="chuong-trinh-tu-tap.html">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="chuong-trinh-tu-tap.html" class="" target="_self">
+                                <span>
+                                    Chương Trình Tu Tập                                </span>
+                            </a>
+                                                    </li>
+                                                <li class="menu-item " data-url="tam-linh-nghi-le.html">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="tam-linh-nghi-le.html" class="" target="_self">
+                                <span>
+                                    Nghi Lễ                                </span>
+                            </a>
+                                                        <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                    <a href="nghi-thuc-cung-le-tai-gia.html" class=""><span>Nghi Thức Cúng Lễ Tại Gia</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="nghi-thuc-cung-le-danh-cho-dao-trang-di-lam-phan-su.html" class=""><span>Nghi Thức Cúng Lễ Dành Cho Đạo Tràng Đi Làm Phận Sự</span></a>
+
+                                                                    </li>
+                                                            </ul>
+                                                    </li>
+                                                <li class="menu-item current" data-url="bai-viet-phat-phap.html">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="bai-viet-phat-phap.html" class="current_incate" target="_self">
+                                <span>
+                                    Bài Viết Phật Pháp                                </span>
+                            </a>
+                                                        <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                    <a href="kien-thuc-phat-phap.html" class=""><span>Kiến Thức Phật Pháp</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="phat-phap-va-doi-song.html" class=""><span>Phật Pháp Và Đời Sống</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="tu-nu-ty-kheo-cu-si.html" class=""><span>Tu Nữ - Tỳ Kheo - Cư Sĩ</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="thien.html" class=""><span>Thiền</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="bao-ve-chinh-phap.html" class=""><span>Bảo Vệ Chính Pháp</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="phuong-phap-doi-tri-tam.html" class=""><span>Phương Pháp Đối Trị Tâm</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="so-do-tu-phat-tam.html" class=""><span>Sơ Đồ Tu Phật Tâm</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="noi-long-nguoi-con-phat.html" class=""><span>Nỗi Lòng Người Con Phật</span></a>
+
+                                                                    </li>
+                                                            </ul>
+                                                    </li>
+                                                <li class="menu-item " data-url="cau-chuyen-chuyen-hoa.html">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="cau-chuyen-chuyen-hoa.html" class="" target="_self">
+                                <span>
+                                    Câu Chuyện Chuyển Hóa                                </span>
+                            </a>
+                                                        <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                    <a href="chuyen-hoa-nghiep.html" class=""><span>Chuyển Hóa Nghiệp</span></a>
+
+                                                                    </li>
+                                                                <li class="menu-item">
+                                    <a href="giac-ngo.html" class=""><span>Giác Ngộ</span></a>
+
+                                                                    </li>
+                                                            </ul>
+                                                    </li>
+                                                <li class="menu-item " data-url="" style="display: none !important;">
+                            <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                            <a href="giai-dap-thac-mac/index.html" target="_self">
+                                <span>Giải Đáp Thắc Mắc</span>
+                            </a>
+                            
+                            <ul class="sub-menu">
+                                                                <li class="menu-item">
+                                    <a href="question-category/doi-song-va-tu-tap.html"><span>
+                                            Đời Sống Và Tu Tập                                        </span></a>
+                                </li>
+                                                                <li class="menu-item">
+                                    <a href="question-category/tinh-yeu-hon-nhan-gia-dinh.html"><span>
+                                            Tình Yêu - Hôn Nhân - Gia Đình                                        </span></a>
+                                </li>
+                                                                <li class="menu-item">
+                                    <a href="question-category/cung-le.html"><span>
+                                            Cúng Lễ                                        </span></a>
+                                </li>
+                                                                <li class="menu-item">
+                                    <a href="question-category/tu-niem-xu.html"><span>
+                                            Thiền Tứ Niệm Xứ                                        </span></a>
+                                </li>
+                                                                <li class="menu-item">
+                                    <a href="question-category/cong-danh-su-nghiep.html"><span>
+                                            Công Danh Sự Nghiệp                                        </span></a>
+                                </li>
+                                                            </ul>
+                            
+                        </li>
+                    </ul>
+                    <!-- categories -->
+                </nav>
+                <div class="head-menu-search active style_forrm" id="head-menu-search">
+
+
+                    <script async src="../cse.google.com/f23c6.txt?cx=b5655a440593d4c30"></script>
+                    <!-- AIzaSyBSGv-wMBAfanB8HTyIV51XM6t7lwfmIYY  action="/?mod=archive&amp;act=search" method="GET"-->
+                    <!-- <form class="frm_gg frm_gg_news" > -->
+                        <!-- <div class="gcse-searchbox-only" data-resultsurl="/?mod=archive&act=search" data-newwindow="false" data-queryparametername="search"></div> -->
+                        <!-- <input type="hidden" name="mod" value="archive"> -->
+                        <!-- <input type="hidden" name="act" value="search"> -->
+                        <!-- <input type="text" name="search" class="border-0 col-10 pr-0 pl-2"> -->
+                        <!-- <button class="btn_sub_search" type="submit"><i class="icon-search"></i></button> -->
+                    <!-- </form> -->
+                    <a href="phamthiyen-search/index.html">
+                        <span class="search-icon"> </span>
+                    </a>
+                        
+
+                </div>
+
+
+
+                <div id="menu-toggle"><span class="icon-hamburger"></span><i class="icon-hamburger-text d-lg-none">Danh
+                        mục</i></div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay-menu">
+        <div class="bg-lotus-menu"></div>
+        <div class="bg-paint-90deg"></div>
+        <div class="p-cy animated fadeIn"
+            style="background-image: url(templates/themes/images/co-pham-thi-yen.png);"></div>
+        <div class="container position-relative">
+            <span class="menu-close icon-close animated fadeIn"></span>
+            <div class="row">
+                <div class="col-12 col-lg-7 col-xl-8">
+                    <div class="brand animated fadeInDown">
+                        <p class="h3 text-uppercase mb-0">Phạm Thị Yến</p>
+                        <p class="h6 text-uppercase mb-1">Tâm Chiếu Hoàn Quán</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-xl-3 style_forrm forrm_nav">
+                    <!-- <form class="frm_gg frm_gg_news menu-search d_search text-right form-inline animated fadeInDown" action="/?mod=archive&amp;act=search" method="GET"> -->
+                        <!-- <div class="gcse-searchbox-only" data-resultsurl="/?mod=archive&act=search" data-newwindow="false" data-queryparametername="search"></div> -->
+                        <!-- <input type="hidden" name="mod" value="archive"> -->
+                        <!-- <input type="hidden" name="act" value="search"> -->
+                        <!-- <input type="text" name="search" class="border-0 col-10 pr-0 pl-2"> -->
+                        <!-- <button class="btn_sub_search" type="submit"><i class="icon-search"></i></button> -->
+                    <!-- </form> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-11">
+                    <nav class="main-menu nav-menu animated fadeInRight">
+                        <ul id="menu-side-menu" class="menu">
+                            <!-- <li class="menu-item">
+                                <a href="/phamthiyen-search/" target="_self">
+                                    <span><i class="icon-search"></i> Tìm kiếm</span>
+                                </a>
+                            </li> -->
+                                                        <li class="menu-item has-child " data-url="https://phamthiyen.com/clb-cuc-vang">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="clb-cuc-vang.html" target="_self">
+                                    <span>CLB Cúc Vàng</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="index.html" target="_self">
+                                            <span>Giới Thiệu CLB Cúc Vàng</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="hoat-dong-phat-su.html" target="_self">
+                                            <span>Hoạt Động Phật Sự</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="an-sinh-xa-hoi.html" target="_self">
+                                            <span>An Sinh Xã Hội</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="kien-thuc-danh-cho-phat-tu-clb-cuc-vang.html" target="_self">
+                                            <span>Kiến Thức Dành Cho Phật Tử CLB Cúc Vàng</span>
+                                        </a>
+                                    </li>
+                                                                                                                <li class="menu-item loadmoreopen">
+                                            <a href="javascript:void(0)" class="openmore">
+                                                <span>Xem thêm</span>
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="tam-linh-nghi-le.html">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="tam-linh-nghi-le.html" target="_self">
+                                    <span>Nghi Lễ</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="nghi-thuc-cung-le-tai-gia.html" target="_self">
+                                            <span>Nghi Thức Cúng Lễ Tại Gia</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="nghi-thuc-cung-le-danh-cho-dao-trang-di-lam-phan-su.html" target="_self">
+                                            <span>Nghi Thức Cúng Lễ Dành Cho Đạo Tràng Đi Làm Phận Sự</span>
+                                        </a>
+                                    </li>
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="chuong-trinh-tu-tap.html">
+                                
+                                <a href="chuong-trinh-tu-tap.html" target="_self">
+                                    <span>Chương Trình Tu Tập</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child current" data-url="bai-viet-phat-phap.html">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="bai-viet-phat-phap.html" target="_self">
+                                    <span>Bài Viết Phật Pháp</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="kien-thuc-phat-phap.html" target="_self">
+                                            <span>Kiến Thức Phật Pháp</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="phat-phap-va-doi-song.html" target="_self">
+                                            <span>Phật Pháp Và Đời Sống</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="tu-nu-ty-kheo-cu-si.html" target="_self">
+                                            <span>Tu Nữ - Tỳ Kheo - Cư Sĩ</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="thien.html" target="_self">
+                                            <span>Thiền</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="bao-ve-chinh-phap.html" target="_self">
+                                            <span>Bảo Vệ Chính Pháp</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="phuong-phap-doi-tri-tam.html" target="_self">
+                                            <span>Phương Pháp Đối Trị Tâm</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="so-do-tu-phat-tam.html" target="_self">
+                                            <span>Sơ Đồ Tu Phật Tâm</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="noi-long-nguoi-con-phat.html" target="_self">
+                                            <span>Nỗi Lòng Người Con Phật</span>
+                                        </a>
+                                    </li>
+                                                                                                                <li class="menu-item loadmoreopen">
+                                            <a href="javascript:void(0)" class="openmore">
+                                                <span>Xem thêm</span>
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="cau-chuyen-chuyen-hoa.html">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="cau-chuyen-chuyen-hoa.html" target="_self">
+                                    <span>Câu Chuyện Chuyển Hóa</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="chuyen-hoa-nghiep.html" target="_self">
+                                            <span>Chuyển Hóa Nghiệp</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="giac-ngo.html" target="_self">
+                                            <span>Giác Ngộ</span>
+                                        </a>
+                                    </li>
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="am-nhac-phat-giao.html">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="am-nhac-phat-giao.html" target="_self">
+                                    <span>Nhạc Phật Giáo</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="bai-hat-ve-duc-phat.html" target="_self">
+                                            <span>Bài Hát Về Đức Phật</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="bai-hat-ve-le-tet.html" target="_self">
+                                            <span>Bài Hát Về Lễ - Tết</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="bai-hat-theo-chu-de.html" target="_self">
+                                            <span>Bài Hát Theo Chủ Đề</span>
+                                        </a>
+                                    </li>
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="clb-la-hau-la.html">
+                                
+                                <a href="clb-la-hau-la.html" target="_self">
+                                    <span>CLB La Hầu La</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="clb-tinh-yeu-hon-nhan-gia-dinh-phat-tu.html">
+                                
+                                <a href="clb-tinh-yeu-hon-nhan-gia-dinh-phat-tu.html" target="_self">
+                                    <span>CLB Tình Yêu - Hôn Nhân - Gia Đình Phật Tử</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="video-1.html">
+                                                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                
+                                <a href="video-1.html" target="_self">
+                                    <span>Video</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        <li class="menu-item ">
+                                        <a href="trach-giang-kinh.html" target="_self">
+                                            <span>Trạch Pháp</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="chuong-trinh-tu.html" target="_self">
+                                            <span>Chương Trình Tu Tập</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item ">
+                                        <a href="dao-trang.html" target="_self">
+                                            <span>Đạo Tràng</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="hanh-huong-an-do.html" target="_self">
+                                            <span>Hành Hương Ấn Độ</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="phat-phap-ung-dung.html" target="_self">
+                                            <span>Phật Pháp Ứng Dụng</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item none_temp">
+                                        <a href="khac.html" target="_self">
+                                            <span>Khác</span>
+                                        </a>
+                                    </li>
+                                                                                                                <li class="menu-item loadmoreopen">
+                                            <a href="javascript:void(0)" class="openmore">
+                                                <span>Xem thêm</span>
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                                                        <li class="menu-item has-child " data-url="van-kinh.html">
+                                
+                                <a href="van-kinh.html" target="_self">
+                                    <span>Văn Kinh</span>
+                                </a>
+                                <ul class="sub-menu collapse show">
+                                                                        
+                                </ul>
+                            </li>
+                                                        <li class="menu-item " data-url="/giai-dap-thac-mac">
+                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                <a href="giai-dap-thac-mac/index.html" target="_self">
+                                    <span>Tâm Sự – Giải Đáp Thắc Mắc</span>
+                                </a>
+                                <ul class="sub-menu collapse">
+                                                                        <li class="menu-item">
+                                        <a href="question-category/doi-song-va-tu-tap.html" target="_self">
+                                            <span>Đời Sống Và Tu Tập</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item">
+                                        <a href="question-category/tinh-yeu-hon-nhan-gia-dinh.html" target="_self">
+                                            <span>Tình Yêu - Hôn Nhân - Gia Đình</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item">
+                                        <a href="question-category/cung-le.html" target="_self">
+                                            <span>Cúng Lễ</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item">
+                                        <a href="question-category/tu-niem-xu.html" target="_self">
+                                            <span>Thiền Tứ Niệm Xứ</span>
+                                        </a>
+                                    </li>
+                                                                        <li class="menu-item">
+                                        <a href="question-category/cong-danh-su-nghiep.html" target="_self">
+                                            <span>Công Danh Sự Nghiệp</span>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="menu-item" >
+                                <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                                <a href="lien-he.html" target="_self">
+                                    <span>Liên Hệ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-11">
+                    <div class="header-socials animated fadeInRight">
+                        <ul class="social-icons list-unstyled d-flex justify-content-center flex-wrap">
+                            <li class="social-icon ml-3">
+                                <a class="icon icon-facebook" title="Facebook" href="https://www.facebook.com/PhamThiYen.TamChieuHoanQuan1970" target="_blank" rel="nofollow"></a>
+                            </li>
+                            <li class="social-icon ml-3">
+                                <a class="icon icon-tiktok" title="Tiktok" href="https://www.tiktok.com/@cophamthiyen" target="_blank" rel="nofollow">
+                                    <img loading="lazy" src="templates/themes/images/icon/tiktok9e36.png?v" alt="" /> 
+                                </a>
+                            </li>
+                            <li class="social-icon ml-3"><a class="icon icon-youtube" title="Youtube" href="https://www.youtube.com/channel/UCu5HaWzvxi_ueJS4lFxUZVA?reload=9&amp;sub_confirmation=1" target="_blank" rel="nofollow"></a></li>
+                            <li class="social-icon ml-3"><a class="icon icon-instagram" title="Instagram" href="https://www.instagram.com/phamthiyen.tchq/" target="_blank" rel="nofollow"></a></li>
+                            <!-- <li class="social-icon ml-3">
+                                <a class="icon " title="Zingmp3" href="https://zingmp3.vn/indie/Pham-Thi-Yen" target="_blank" rel="nofollow">
+                                    <img loading="lazy" src="https://phamthiyen.com/templates/themes/images/icon/zingmp3.png" alt="" /> 
+                                </a>
+                            </li> -->
+                            <li class="social-icon ml-3">
+                                <a class="icon " title="spotify" href="https://open.spotify.com/artist/34ReWGlbqiWw76MUK1VEx9/discography/all" target="_blank" rel="nofollow">
+                                    <img loading="lazy" src="templates/themes/images/icon/spotify.png" alt="" /> 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="menu-short d-lg-none">
+    <div class="container d-flex">
+        <a class="icon-cac-van-de-ve-doi-song icon-home" href="index.html"></a>
+        <div class="menu-slider">
+            <!-- <div class="scrollbar">
+                <div class="handle"></div>
+                <div class="mousearea"></div>
+            </div> -->
+            <div class="frame" style="width: auto; overflow: auto;">
+                <ul id="menu-focus-menu" class="menu">
+                    <!-- <li class="menu-item active" >
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+                        <a href="/gioi-thieu" target="_self">
+                            <span>Giới thiệu</span>
+                        </a>
+                    </li> -->
+                                        <li class="menu-item" data-url="clb-cuc-vang.html">
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+
+                        <a href="clb-cuc-vang.html" target="_self">
+                            <span>CLB Cúc Vàng</span>
+                        </a>
+                    </li>
+                                        <li class="menu-item" data-url="chuong-trinh-tu-tap.html">
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+
+                        <a href="chuong-trinh-tu-tap.html" target="_self">
+                            <span>Chương Trình Tu Tập</span>
+                        </a>
+                    </li>
+                                        <li class="menu-item" data-url="tam-linh-nghi-le.html">
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+
+                        <a href="tam-linh-nghi-le.html" target="_self">
+                            <span>Nghi Lễ</span>
+                        </a>
+                    </li>
+                                        <li class="menu-item" data-url="bai-viet-phat-phap.html">
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+
+                        <a href="bai-viet-phat-phap.html" target="_self">
+                            <span>Bài Viết Phật Pháp</span>
+                        </a>
+                    </li>
+                                        <li class="menu-item" data-url="cau-chuyen-chuyen-hoa.html">
+                        <a href="javascript:void(0)" title="" class="icon-down icon-collapse noselect"></a>
+
+                        <a href="cau-chuyen-chuyen-hoa.html" target="_self">
+                            <span>Câu Chuyện Chuyển Hóa</span>
+                        </a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="splash animated slow fadeInDown" id="splash">
+    <div class="bg-lotus-menu"></div>
+    <div class="bg-paint-90deg"></div>
+    <div class="p-cy" style="background-image: url(templates/themes/images/co-pham-thi-yen.png);"></div>
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-5 col-lg-6">
+                <div class="splash-content">
+                    <p class="h2 text-primary">Giới thiệu về Website</p>
+                    <p class="h4 text-white">Trang web phamthiyen.com là nơi đăng tải những bài viết, video hướng dẫn cách áp dụng Phật Pháp: giáo lý nhân quả và tâm linh vào cuộc sống bằng phương pháp tâm linh của đạo Phật.</p>
+                </div>
+            </div>
+            <div class="col-lg-1 d-none d-lg-block">
+                <ul class="splash-socials list-unstyled text-right">
+                    <li><a class="icon-facebook" title="Facebook"
+                            href="https://www.facebook.com/PhamThiYen.TamChieuHoanQuan1970" target="_blank"
+                            rel="nofollow"></a></li>
+                    <li><a class="icon-youtube" title="Youtube"
+                            href="https://www.youtube.com/channel/UCu5HaWzvxi_ueJS4lFxUZVA?reload=9&amp;sub_confirmation=1"
+                            target="_blank" rel="nofollow"></a></li>
+                    <li><a class="icon-soundcloud" title="Soundcloud"
+                            href="https://soundcloud.com/phat-phap-ung-dung/sets" target="_blank" rel="nofollow"></a>
+                    </li>
+                    <li>
+                        <a class="" title="Tiktok" href="https://www.tiktok.com/@cophamthiyen" target="_blank"
+                            rel="nofollow"><img loading="lazy" src="templates/themes/images/tiktok-lg9e36.png?v" alt="" /> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-lg-4 col-lg-8">
+                <div class="splash-content">
+                    <p class="h1 text-white">Phạm Thị Yến</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down"><span class="noselect icon-scroll-down"></span></div>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        $(".has-child .icon-down").click(function () {
+            var parent = $(this).parent();
+            console.log('1111');
+            var childUlElements = parent.children('.sub-menu');
+            childUlElements.css('display', 'block');
+
+
+            check_active = $(this).hasClass('active');
+            if (check_active) {
+                childUlElements.css('display', 'none');
+            }
+        });
+    });
+</script>    <style type="text/css">
+    .fixtxt-3{
+        overflow: hidden;
+       display: -webkit-box;
+       -webkit-line-clamp: 3;
+       -webkit-box-orient: vertical;
+    }
+    a.showcmt_fixed {
+        color: #ad6400;
+    }
+
+    .showmorecmt {
+        text-align: center;
+    }
+    a.printbtn {
+        width: 35px;
+    }
+.tooolapp {
+    position: fixed;
+    right: -45px;
+    background: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    bottom: 220px;
+    right: 30px;
+}
+.plus_btn:hover, .minus_btn:hover {
+    cursor: pointer;
+}
+.news-detail-content_2 .post-detail .alage {
+    font-size: 22px !important;
+}
+.tooolshaare img {
+    width: 30px;
+}
+.tooolshaare{ display:none }
+.boxcontent_add {
+    display: flex;
+    gap: 20px;
+}
+
+.toc-containers.toc_fixed {
+    position: relative;
+    margin-left: -52px;
+}
+@media (max-width: 767px) {
+    .news-detail-content_2 .tool_scroll .tooolapp {
+        bottom: 0;
+        width: 100%;
+        margin: 0px !important;
+        border-radius: 0px;
+        display: flex;
+        right: 0;
+        align-items: center;
+        z-index: 99;
+    }
+
+    .tooolshaare {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .toolsize {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .tooolshaare img {
+        margin: 0px !important;
+    }
+
+    .aa {
+        margin: 0px 20px;
+    }
+
+    .minus_btn, .plus_btn {
+        padding: 0px 10px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    .tooolapp {
+        box-shadow: 0px 0px 13px 0px #314d39;
+    }
+}
+</style>
+<input type="hidden" value="6151" id="thisnews">
+<section class="head-content-page unsetover">
+    <div class="bg-lotus bg-lotus--top"></div>
+    <div class="news-detail-content news-detail-content_2 single-post">
+        <div class="container position-relative container-indetail">
+            <div class="bg-paint bg-paint-center bg-paint-detail"></div>
+            <div class="breadcrumb-row d-flex align-items-center">
+                <div class="breadcrumb col-12 justify-content-center">
+                    <span>
+                        <span>
+                            <a href="index.html">Trang chủ</a>
+                                                        <i class="br_separator">></i>
+                            <span>
+                                <a href="bai-viet-phat-phap.html">
+                                    Bài Viết Phật Pháp                                </a>
+                            </span>
+                                                                                    <i class="br_separator">></i>
+                            <span>
+                                <a class="color-default" href="kien-thuc-phat-phap.html">
+                                    Kiến Thức Phật Pháp                                </a>
+                            </span>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h1 class="h2 text-center text-main mb-3 mb-lg-5 px-4">
+                        Tứ nhiếp pháp: 4 cách Phật dạy để thu phục lòng người, được số đông yêu quý                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 offset-lg-1-">
+                    <div class="catewwithcolum">
+                        <div class="mianbig_detail">
+                            <div class="tool_scroll">
+                                <div class="tooolapp">
+                                    <div class="tooolshaare">
+                                        <img src="templates/themes/images/icon/share.png">
+                                    </div>
+                                    <div class="toolsize">
+                                        <div class="minus_btn">-</div>
+                                        <div class="aa"><span class="asmall">a</span><span class="alage">a</span></div>
+                                        <div class="plus_btn">+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <article class="card card-article card-shadow card-icon">
+                                <div class="card-body card-body_dt">
+                                    <div class="post-detail mb-3 mb-lg-5">
+                                        <div class="boxcontent_add">
+                                                                                        <div class="toc-containers toc_fixed">
+                                                <a href="#" title="Mở mục lục" class="toc_btn"></a>
+                                                <div class="toc_content" style="display: none;">
+                                                    <div class="toc_fixed_title">
+                                                        Mục lục
+                                                        <span class="toc_close"></span>
+                                                    </div>
+                                                    <ul class="toc_list"><li> <a href="#tu_nhiep_phap_la_gi"><span class="d-flex lever-1"><span style="margin-left:6px;">Tứ nhiếp pháp là gì?</a></li><li> <a href="#1_bo_thi_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Bố thí nhiếp</a></li><li> <a href="#2_ai_ngu_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Ái ngữ nhiếp</a></li><li> <a href="#3_loi_hanh_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Lợi hành nhiếp </a></li><li> <a href="#4_dong_su_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">4. Đồng sự nhiếp </a></li><li> <a href="#3_loi_ich_khi_thuc_hanh_tu_nhiep_phap"><span class="d-flex lever-1"><span style="margin-left:6px;">3 lợi ích khi thực hành Tứ nhiếp pháp</a></li><li> <a href="#1_thau_nhiep_dai_chung"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Thâu nhiếp đại chúng</a></li><li> <a href="#2_o_bat_cu_dau_cung_duoc_an_vui_hanh_phuc_va_phat_trien"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Ở bất cứ đâu cũng được an vui, hạnh phúc và phát triển</a></li><li> <a href="#3_chuyen_hoa_nghiep_hay_bi_ghen_ghet_do_ky"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Chuyển hóa nghiệp hay bị ghen ghét, đố kỵ</a></li><li> <a href="#gieo_nhan_de_thuc_hanh_duoc_tu_nhiep_phap"><span class="d-flex lever-1"><span style="margin-left:6px;">Gieo nhân để thực hành được Tứ nhiếp pháp</a></li><li> <a href="#1_co_long_tin_tam_bao"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Có lòng tin Tam Bảo</a></li><li> <a href="#2_co_giu_gioi"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Có giữ giới</a></li><li> <a href="#3_co_long_xau_ho"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Có lòng xấu hổ</a></li><li> <a href="#4_co_long_so_hai"><span class="d-flex lever-2"><span style="margin-left:6px;">4. Có lòng sợ hãi</a></li><li> <a href="#5_nghe_nhieu"><span class="d-flex lever-2"><span style="margin-left:6px;">5. Nghe nhiều</a></li><li> <a href="#6_bo_thi"><span class="d-flex lever-2"><span style="margin-left:6px;">6. Bố thí</a></li><li> <a href="#7_co_tri_tue"><span class="d-flex lever-2"><span style="margin-left:6px;">7. Có trí tuệ</a></li><li> <a href="#8_it_duc"><span class="d-flex lever-2"><span style="margin-left:6px;">8. Ít dục</a></li></ul>                                                </div>
+                                            </div>
+                                                                                        <div class="this_detaill this_detaill_size">
+                                                <p style="text-align: justify;"><strong>Tứ nhiếp pháp</strong> là một Pháp trong nhà Phật; nếu thực hành theo, ta sẽ thu phục và lãnh đạo được đông đảo đại chúng. Không chỉ vậy, nhờ thực hành Tứ nhiếp pháp, chúng ta cũng sẽ được nhiều người yêu mến, hạnh phúc và phát triển dù ở bất cứ đâu. </p>  <p style="text-align: justify;">Để hiểu rõ hơn về Tứ nhiếp pháp cũng như những lợi ích và điều kiện thực hành bốn phương pháp này, kính mời quý vị cùng đón đọc bài viết dưới đây! </p>  <div class="toc-containers toc-container table-of-content"><p class="toc_title" data-show-text="Hiển thị" data-hide-text="Ẩn">Mục lục<span class="toc_toggle"> [<a href="#">Hiển thị</a>] </span></p><ul class="toc_list"><li> <a href="#tu_nhiep_phap_la_gi"><span class="d-flex lever-1"><span style="margin-left:6px;">Tứ nhiếp pháp là gì?</a></li><li> <a href="#1_bo_thi_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Bố thí nhiếp</a></li><li> <a href="#2_ai_ngu_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Ái ngữ nhiếp</a></li><li> <a href="#3_loi_hanh_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Lợi hành nhiếp </a></li><li> <a href="#4_dong_su_nhiep"><span class="d-flex lever-2"><span style="margin-left:6px;">4. Đồng sự nhiếp </a></li><li> <a href="#3_loi_ich_khi_thuc_hanh_tu_nhiep_phap"><span class="d-flex lever-1"><span style="margin-left:6px;">3 lợi ích khi thực hành Tứ nhiếp pháp</a></li><li> <a href="#1_thau_nhiep_dai_chung"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Thâu nhiếp đại chúng</a></li><li> <a href="#2_o_bat_cu_dau_cung_duoc_an_vui_hanh_phuc_va_phat_trien"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Ở bất cứ đâu cũng được an vui, hạnh phúc và phát triển</a></li><li> <a href="#3_chuyen_hoa_nghiep_hay_bi_ghen_ghet_do_ky"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Chuyển hóa nghiệp hay bị ghen ghét, đố kỵ</a></li><li> <a href="#gieo_nhan_de_thuc_hanh_duoc_tu_nhiep_phap"><span class="d-flex lever-1"><span style="margin-left:6px;">Gieo nhân để thực hành được Tứ nhiếp pháp</a></li><li> <a href="#1_co_long_tin_tam_bao"><span class="d-flex lever-2"><span style="margin-left:6px;">1. Có lòng tin Tam Bảo</a></li><li> <a href="#2_co_giu_gioi"><span class="d-flex lever-2"><span style="margin-left:6px;">2. Có giữ giới</a></li><li> <a href="#3_co_long_xau_ho"><span class="d-flex lever-2"><span style="margin-left:6px;">3. Có lòng xấu hổ</a></li><li> <a href="#4_co_long_so_hai"><span class="d-flex lever-2"><span style="margin-left:6px;">4. Có lòng sợ hãi</a></li><li> <a href="#5_nghe_nhieu"><span class="d-flex lever-2"><span style="margin-left:6px;">5. Nghe nhiều</a></li><li> <a href="#6_bo_thi"><span class="d-flex lever-2"><span style="margin-left:6px;">6. Bố thí</a></li><li> <a href="#7_co_tri_tue"><span class="d-flex lever-2"><span style="margin-left:6px;">7. Có trí tuệ</a></li><li> <a href="#8_it_duc"><span class="d-flex lever-2"><span style="margin-left:6px;">8. Ít dục</a></li></ul></div><h2 style="text-align: justify;" id="tu_nhiep_phap_la_gi">Tứ nhiếp pháp là gì?</h2>  <p style="text-align: justify;">Trong Phật học, Tứ nhiếp pháp là <strong>bốn pháp tế độ để cảm hóa quần chúng</strong>, lãnh đạo được số đông và khiến họ quy thuận. Bốn phương pháp này gồm bố thí nhiếp, ái ngữ nhiếp, lợi hành nhiếp và đồng sự nhiếp.</p>  <h3 style="text-align: justify;" id="1_bo_thi_nhiep">1. Bố thí nhiếp</h3>  <p style="text-align: justify;">Bố thí nhiếp gồm ba loại: tài thí, Pháp thí và bố thí vô úy. </p>  <p style="text-align: justify;"><strong>Tài thí</strong> - tức bố thí bằng tài vật, ta có thể dùng tiền bạc, của cải (ngoại thí) và xương, máu, thịt (nội thí) của mình để giúp đỡ mọi người.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/hien-mau-noi-thi-de-giup-do-nguoi-kho-khan-1413.jpg" alt="Hiến máu (nội thí) để giúp đỡ người khó khăn" width="960" height="722" />  <figcaption>  <p class="h2">Hiến máu (nội thí) để giúp đỡ người khó khăn</p>  </figcaption>  </figure>  <p style="text-align: justify;"><strong>Pháp thí</strong> tức là ta thực hành bố thí bằng việc giúp người biết được tri kiến của Phật, hướng dẫn họ tu tập bớt khổ. </p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/phap-thi-la-giup-nguoi-biet-duoc-tri-kien-cua-phat-de-tu-tap-bot-kho-1413.jpg" alt="Pháp thí là giúp người biết được tri kiến của Phật để tu tập bớt khổ " width="960" height="612" />  <figcaption>  <p class="h2">Pháp thí là giúp người biết được tri kiến của Phật để tu tập bớt khổ</p>  </figcaption>  </figure>  <p style="text-align: justify;">Còn <strong>bố thí vô úy</strong> - là khi ta dùng kiến thức của mình giúp người đang sợ hãi thoát khỏi nỗi lo lắng, hoặc là khi ta biết động viên và chia sẻ để họ vượt qua đau khổ, khó khăn.</p>  <h3 style="text-align: justify;" id="2_ai_ngu_nhiep">2. Ái ngữ nhiếp</h3>  <p style="text-align: justify;">Ái ngữ là những lời nói chân thật, hài hòa và mang đến lợi ích cho người. Trong Chuyện Con Bò Đại Hỷ, chương Một, phẩm Kurunga, kinh Tiểu Bộ tập 4, Đức Phật dạy: </p>  <p style="text-align: justify;">“Chỉ nói lời từ hòa,</p>  <p style="text-align: justify;">Không từ hòa, không nói.</p>  <p style="text-align: justify;">Ai nói lời từ hòa,</p>  <p style="text-align: justify;">Kéo đi được gánh nặng,</p>  <p style="text-align: justify;">Khiến nó được tài sản.</p>  <p style="text-align: justify;">Do vậy, nó ưa thích.”</p>  <p style="text-align: justify;">“Từ” là có tâm từ bi, tức lời nói của mình có tâm từ bi; “lời từ hòa” là lời nói làm cho mối quan hệ giữa mình với người có sự thông cảm, chia sẻ và gắn kết với nhau. Việc thực hành ái ngữ nhiếp sẽ đưa đến quả phước tốt đẹp. </p>  <p style="text-align: justify;">Tuy vậy, vì kho văn từ còn hạn hẹp và thói quen giao tiếp theo cảm xúc đã được hình thành từ nhỏ, nên chúng ta chưa biết linh hoạt trong cách sử dụng ngôn từ hài hòa, tốt đẹp để mang lại cảm giác dễ chịu cho người nghe. Thay vào đó, chúng ta thường chỉ nói và lắng nghe nhau bằng tâm chân thật. Để nói được lời từ hòa, người này phải học rộng, nghe nhiều và đưa ra các phương pháp tập ứng xử, cố gắng duy trì trong đời sống hàng ngày.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/ai-ngu-la-nhung-loi-noi-chan-that-hai-hoa-va-mang-den-loi-ich-cho-nguoi-1413.jpg" alt="Ái ngữ là những lời nói chân thật, hài hòa và mang đến lợi ích cho người" width="960" height="640" />  <figcaption>  <p class="h2">Ái ngữ là những lời nói chân thật, hài hòa và mang đến lợi ích cho người</p>  </figcaption>  </figure>  <h3 style="text-align: justify;" id="3_loi_hanh_nhiep">3. Lợi hành nhiếp </h3>  <p style="text-align: justify;">Lợi hành nhiếp là những suy nghĩ, lời nói và hành động thiết thực, làm lợi ích cho chúng sinh. Tức là chúng ta có tinh thần phụng sự chúng sinh, mà trong kinh Hoa Nghiêm có nói “...Nếu có thể tùy thuận chúng sanh, thì tức là tùy thuận cúng dường các đức Phật”. Ví như, chúng ta phát tâm đắp đường, bắc cầu, nấu cơm từ thiện, xây nhà tình nghĩa, cắt thuốc, bốc thuốc cho dân, đào giếng, làm nhà trọ… Hay trong tu tập, lợi hành nhiếp là sự động viên, sách tấn giúp người được tinh tấn.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/loi-hanh-nhiep-la-hanh-dong-dem-lai-loi-ich-cho-nguoi-khac-1413.jpg" alt="Lợi hành nhiếp là hành động đem lại lợi ích cho người khác (Hình ảnh Phật tử chung tay dọn dẹp địa điểm công cộng)" width="960" height="639" />  <figcaption>  <p class="h2">Lợi hành nhiếp là hành động đem lại lợi ích cho người khác (Hình ảnh Phật tử chung tay dọn dẹp địa điểm công cộng)</p>  </figcaption>  </figure>  <h3 style="text-align: justify;" id="4_dong_su_nhiep">4. Đồng sự nhiếp </h3>  <p style="text-align: justify;">Đồng sự nhiếp là khi chúng ta cùng mọi người làm việc; hướng dẫn, chia sẻ và giúp đỡ để họ được lợi ích. Trong đạo tràng, đồng sự nhiếp được thể hiện qua việc ta hướng dẫn mọi người làm phận sự cũng như giúp họ biết tụng kinh, lễ bái, sám hối, nghe Pháp để chuyển hóa nghiệp.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/dong-su-nhiep-la-khi-ta-cung-moi-nguoi-lam-viec-huong-dan-chia-se-va-giup-do-de-ho-duoc-loi-ich-1413.jpg" alt="Đồng sự nhiếp là khi ta cùng mọi người làm việc; hướng dẫn, chia sẻ và giúp đỡ để họ được lợi ích" width="960" height="720" />  <figcaption>  <p class="h2">Đồng sự nhiếp là khi ta cùng mọi người làm việc; hướng dẫn, chia sẻ và giúp đỡ để họ được lợi ích</p>  </figcaption>  </figure>  <h2 style="text-align: justify;" id="3_loi_ich_khi_thuc_hanh_tu_nhiep_phap">3 lợi ích khi thực hành Tứ nhiếp pháp</h2>  <h3 style="text-align: justify;" id="1_thau_nhiep_dai_chung">1. Thâu nhiếp đại chúng</h3>  <p style="text-align: justify;">Trong Kinh Cư Sĩ Tối Thắng Về Nhiếp Phục Hội Chúng (Nam Cư Sĩ Hatthaka) - kinh Tăng Chi Bộ có nói nguyên nhân nam cư sĩ Hatthaka thâu nhiếp được hội chúng lớn lên đến 500 người là nhờ áp dụng Tứ nhiếp pháp. Và trong bài kinh, Đức Phật cũng khẳng định: Dù trong quá khứ, hiện tại hay vị lai, bất kỳ ai muốn lãnh đạo và có được đại chúng đông đảo thì đều phải thực hành bốn nhiếp pháp này.</p>  <p style="text-align: justify;">“- Bạch Thế Tôn, có bốn nhiếp pháp này được Thế Tôn thuyết giảng. Con thâu nhiếp hội chúng này với những nhiếp pháp ấy. Bạch Thế Tôn, khi con biết rằng: “Người này cần phải thâu nhiếp nhờ bố thí”, thời con thâu nhiếp người ấy với bố thí. Khi con biết rằng: “Người này cần phải thâu nhiếp nhờ ái ngữ”, thời con thâu nhiếp người ấy với ái ngữ. Khi con biết rằng: “Người này cần phải thâu nhiếp nhờ lợi hành”, thời con thâu nhiếp người ấy với lợi hành. Khi con biết rằng: “Người này cần phải thâu nhiếp nhờ đồng sự”, thời con thâu nhiếp người ấy với đồng sự.</p>  <p style="text-align: justify;">- Lành thay, lành thay, này Ha-tha-ka! Đây là nguyên lý để thâu nhiếp đại chúng! Này Ha-tha-ka, những ai trong quá khứ đã thâu nhiếp đại chúng, tất cả đều thâu nhiếp đại chúng với bốn nhiếp pháp này. Này Ha-tha-ka, những ai trong tương lai sẽ thâu nhiếp đại chúng, tất cả sẽ thâu nhiếp đại chúng với bốn nhiếp pháp này. Này Ha-tha-ka, những ai trong hiện tại thâu nhiếp đại chúng, tất cả họ đều thâu nhiếp đại chúng với bốn nhiếp pháp này.”</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/thuc-hanh-tu-nhiep-phap-giup-thau-nhiep-va-lanh-dao-duoc-dong-dao-dai-chung-1413.jpg" alt="Thực hành Tứ nhiếp pháp giúp thâu nhiếp và lãnh đạo được đông đảo đại chúng (ảnh minh họa)" width="960" height="653" />  <figcaption>  <p class="h2">Thực hành Tứ nhiếp pháp giúp thâu nhiếp và lãnh đạo được đông đảo đại chúng (ảnh minh họa)</p>  </figcaption>  </figure>  <h3 style="text-align: justify;" id="2_o_bat_cu_dau_cung_duoc_an_vui_hanh_phuc_va_phat_trien">2. Ở bất cứ đâu cũng được an vui, hạnh phúc và phát triển</h3>  <p style="text-align: justify;">Đức Phật dạy: Ai thực hành Tứ nhiếp pháp thì gia đình được an ổn, với bạn bè được an vui và ở bất cứ đâu cũng được hạnh phúc, phát triển.</p>  <h3 style="text-align: justify;" id="3_chuyen_hoa_nghiep_hay_bi_ghen_ghet_do_ky">3. Chuyển hóa nghiệp hay bị ghen ghét, đố kỵ</h3>  <p style="text-align: justify;">Việc bị người ganh ghét là do trong quá khứ, ta có tính toán khi đến gần người khác, ỷ lại khi làm việc, nói lời không đúng về người và chỉ nghĩ đến lợi ích riêng. Dùng Tứ nhiếp pháp giúp chuyển hóa quả báo đó ngay trong đời này, đồng thời giúp ta có đông bạn bè, được yêu quý hơn.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/tu-nhiep-phap-giup-ta-co-dong-ban-be-duoc-yeu-quy-hon-1413.jpg" alt="Tứ nhiếp pháp giúp ta có đông bạn bè, được yêu quý hơn (ảnh minh họa)" width="960" height="540" />  <figcaption>  <p class="h2">Tứ nhiếp pháp giúp ta có đông bạn bè, được yêu quý hơn (ảnh minh họa)</p>  </figcaption>  </figure>  <h2 style="text-align: justify;" id="gieo_nhan_de_thuc_hanh_duoc_tu_nhiep_phap">Gieo nhân để thực hành được Tứ nhiếp pháp</h2>  <p style="text-align: justify;">Một người muốn thực hành Tứ nhiếp pháp và có hội chúng đông đảo thì cần phải có 8 nhân duyên sau:</p>  <h3 style="text-align: justify;" id="1_co_long_tin_tam_bao">1. Có lòng tin Tam Bảo</h3>  <p style="text-align: justify;">Nhân thứ nhất là cần có lòng tin với Phật, Pháp, Tăng (Tam Bảo). Nếu không có lòng tin, ta không thể chuyển tải Phật Pháp và bố thí Pháp được. Cho nên, muốn thành tựu được Tứ nhiếp pháp, nhân đầu tiên phải gieo là có lòng tin nơi Tam Bảo.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/de-thanh-tuu-tu-nhiep-phap-nhan-dau-tien-phai-gieo-la-co-long-tin-tam-bao-1413.jpg" alt="Để thành tựu Tứ nhiếp pháp, nhân đầu tiên phải gieo là có lòng tin Tam Bảo (ảnh minh họa)" width="850" height="559" />  <figcaption>  <p class="h2">Để thành tựu Tứ nhiếp pháp, nhân đầu tiên phải gieo là có lòng tin Tam Bảo (ảnh minh họa)</p>  </figcaption>  </figure>  <h3 style="text-align: justify;" id="2_co_giu_gioi">2. Có giữ giới</h3>  <p style="text-align: justify;">Nhân thứ hai là có giữ giới. Người chăm giữ giới thì mới có thể phát sinh kết quả là thực hành được trọn vẹn Tứ nhiếp pháp. </p>  <h3 style="text-align: justify;" id="3_co_long_xau_ho">3. Có lòng xấu hổ</h3>  <p style="text-align: justify;">Nhân thứ ba là có lòng xấu hổ (tàm quý). Nếu không có lòng xấu hổ, ta không thể sám hối, rút kinh nghiệm và chuyển hóa lỗi lầm khi bản thân có lời nói hoặc hành động chưa đúng, không tương ưng với Pháp. Vậy nên tâm tàm quý là tâm vô cùng quan trọng và là nhân cần phải gieo để được quả là Tứ nhiếp pháp. </p>  <h3 style="text-align: justify;" id="4_co_long_so_hai">4. Có lòng sợ hãi</h3>  <p style="text-align: justify;">Bên cạnh việc có lòng tin, chúng ta cũng cần có tâm sợ hãi tội lỗi và quả báo. Nếu ta không sợ hãi mà luôn bao biện cho lỗi lầm, thì đại chúng sẽ không phục mình được. Vì vậy, khi làm điều không đúng, ta phải nói với mọi người là mình có lỗi và mình rất sợ quả báo không tốt từ lỗi đó. Người có tâm sợ hãi tội lỗi, sợ hãi quả báo như vậy mới nhắc được đại chúng.</p>  <h3 style="text-align: justify;" id="5_nghe_nhieu">5. Nghe nhiều</h3>  <p style="text-align: justify;">Một nhân duyên nữa để thành tựu được Tứ nhiếp pháp là phải nghe nhiều. Đặc biệt trong Phật Pháp, khi nghe nhiều, chúng ta mới có thể dùng kiến thức của mình để khuyên bảo, giúp người bớt sợ hãi và được an vui. Việc làm này chính là bố thí vô úy, cứu khổ ban vui. Bên cạnh đó, nghe nhiều Phật Pháp cũng giúp ta hiểu như thế nào là tà kiến. Từ đó, ta có thể lập luận, chia sẻ với mọi người, khiến họ rời bỏ các tư tưởng tà kiến và sinh lòng tin với Tam Bảo.</p>  <p style="text-align: justify;">Chẳng hạn, có người nói: “Tôi được ban phước”. Khi đó, ta sẽ lập luận rằng: Nếu thực sự có một người được gọi là “cha của chúng sinh”, có thể ban phước được thì vị này không thể bất công như vậy. Cũng như trong một gia đình, cha mẹ luôn chia đều tài sản cho các con; vậy tại sao “cha của chúng sinh” lại để cho kẻ chịu khổ cực, người sống sung sướng; kẻ mang bệnh tật, người thì khỏe mạnh?</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/nghe-nhieu-phat-phap-khien-ta-biet-dung-kien-thuc-dung-dan-de-khuyen-bao-giup-nguoi-bot-so-hai-va-duoc-an-vui-1413.jpg" alt="Nghe nhiều Phật Pháp khiến ta biết dùng kiến thức đúng đắn để khuyên bảo, giúp người bớt sợ hãi và được an vui (ảnh minh họa)" width="960" height="642" />  <figcaption>  <p class="h2">Nghe nhiều Phật Pháp khiến ta biết dùng kiến thức đúng đắn để khuyên bảo, giúp người bớt sợ hãi và được an vui (ảnh minh họa)</p>  </figcaption>  </figure>  <h3 style="text-align: justify;" id="6_bo_thi">6. Bố thí</h3>  <p style="text-align: justify;">Để thành tựu viên mãn Tứ nhiếp pháp, chúng ta phải thực hành được ba pháp bố thí: tài thí, Pháp thí và bố thí vô úy.</p>  <h3 style="text-align: justify;" id="7_co_tri_tue">7. Có trí tuệ</h3>  <p style="text-align: justify;">Có trí tuệ nghĩa là biết phân biệt thiện - ác, hiểu rõ nhân quả và có khả năng cắt đứt phiền não (tức tham dục, bất thiện).</p>  <p style="text-align: justify;">Ví dụ, nhờ học Phật Pháp, ta hiểu rằng chấp thủ là khổ nên cần hướng tới buông bỏ. Hoặc khi thấy lời nói cộc cằn gây nhiều bất lợi, ta phải có ý định đoạn trừ thói quen ấy. Đó gọi là có trí tuệ.</p>  <h3 style="text-align: justify;" id="8_it_duc">8. Ít dục</h3>  <p style="text-align: justify;">Định nghĩa của dục là ham muốn và ưa thích. Ví dụ, người con trai nhìn thấy cô gái đẹp, họ sẽ có tâm ham thích, ưa muốn sở hữu mối quan hệ với người đó. Và dần dần tà tâm sẽ khởi ra từ sự ưa thích đó. </p>  <p style="text-align: justify;">Việc sở hữu quá nhiều tài sản cũng là một ví dụ điển hình cho tâm ham muốn dục. Thực tế, mỗi người chỉ cần một ngôi nhà để ở, một bữa ăn đủ no và một phương tiện việc đi lại phù hợp. Song, vì ham thích quá lớn, chúng ta thường tích lũy nhiều sổ đỏ, ô tô hay xe máy hơn nhu cầu thực tế (không tính trường hợp sử dụng để phục vụ quảng cáo và phát triển kinh doanh). Ngoài ra, ham muốn những điều người khác có mà chúng ta không có cũng khiến khởi tâm đố kỵ. </p>  <p style="text-align: justify;">Qua đó thấy được người nhiều dục hay gặp điều bất như ý; mà bất như ý thường sinh phiền não. Cho nên, sống ít muốn biết đủ sẽ giúp ta nhẹ bớt những điều đó. Như trong Kinh Tám Điều Giác Ngộ Của Bậc Đại Nhân có viết: “Tham muốn nhiều là khổ, bao sinh tử nhọc nhằn, đều từ tham dục khởi, nếu ít muốn biết đủ, thân tâm được tự tại”.</p>  <figure class="expNoEdit" style="text-align: justify;"><img src="../media.phamthiyen.com/files/content/2025/11/24/it-muon-biet-du-se-giup-ta-nhe-bot-phien-nao-trong-cuoc-song-1413.jpg" alt="Ít muốn biết đủ sẽ giúp ta nhẹ bớt phiền não trong cuộc sống (ảnh minh họa)" width="960" height="540" />  <figcaption>  <p class="h2">Ít muốn biết đủ sẽ giúp ta nhẹ bớt phiền não trong cuộc sống (ảnh minh họa)</p>  </figcaption>  </figure>  <p style="text-align: justify;">Bài viết này đã đưa ra khái niệm, lợi ích và nhân duyên để thành tựu được Tứ nhiếp pháp dựa trên lời chia sẻ của Cô Phạm Thị Yến - Pháp danh Tâm Chiếu Hoàn Quán, chủ nhiệm CLB Cúc Vàng - Tập Tu Lục Hòa. Hy vọng rằng các bạn biết áp dụng bốn nhiếp pháp mà Đức Phật dạy vào cuộc sống để thu phục, lãnh đạo được đông đảo đại chúng; có thêm nhiều bạn bè, được yêu quý hơn và sống ở bất cứ đâu cũng được an vui, hạnh phúc.</p>  <p style="text-align: justify;">Nếu còn điều gì thắc mắc, quý độc giả có thể để lại bình luận dưới bài viết, gửi về chuyên mục Phật Pháp ứng dụng để được giải đáp. Kính chúc quý vị an lạc!</p>  <p style="text-align: left;"><strong>Xem thêm các bài:</strong></p>  <ul>  <li style="font-weight: 400;" aria-level="1"><a href="tu-vo-luong-tam-c5706.html">Tứ vô lượng tâm: 4 tâm giúp bạn giảm phiền não, được an vui, hạnh phúc</a></li>  <li style="font-weight: 400;" aria-level="1"><a href="luc-hoa-c5061.html">Lục hòa là gì? Tu lục hòa để cuộc sống được an lành, hạnh phúc</a></li>  <li style="font-weight: 400;" aria-level="1"><a href="12-nhan-duyen-c3294.html">Thập nhị nhân duyên: Hiểu rõ để giảm trừ phiền não, giải thoát khổ đau</a></li>  <li style="font-weight: 400;" aria-level="1"><a href="ta-kien-la-gi-c6147.html">Sự nguy hại của tà kiến - 2 cách diệt trừ để được an vui, hạnh phúc</a></li>  <li style="font-weight: 400;" aria-level="1"><a href="sam-hoi-c4884.html">Sám hối là gì? Muốn tâm bình an, tiêu trừ tội lỗi, phải nên sám hối</a></li>  </ul>                                            </div>
+                                        </div>
+                                        <!-- <div class="tooolapp">
+                                            <div class="tooolshaare">
+                                                <img src="https://phamthiyen.com/templates/themes/images/icon/share.png">
+                                            </div>
+                                            <div class="toolsize">
+                                                <div class="minus_btn">-</div>
+                                                <div class="aa"><span class="asmall">a</span><span class="alage">a</span></div>
+                                                <div class="plus_btn">+</div>
+                                            </div>
+                                        </div> -->
+                                                                                                                                                            </div>
+                                    <div class="d-flex justify-content-between mb-3 sec-views">
+                                        <div class="text-view">
+                                            383 lượt xem
+                                        </div>
+                                        <div class="text-date">
+                                            24/11/2025                                        </div>
+                                    </div>
+                                    <div class="d-flex cy_fb">
+                                        <div class="d-flex inlike align-items-center boxlike">
+                                            <div class="icon-padding-t click_in_like "  data-id="6151">
+                                                <a href="javascript:void(0)" class="">
+                                                    <div class="button-edit button-edit-cmt andlike bg-comment-like ">
+                                                        <i class="fas fa-thumbs-up"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="comment-text-t numlike " data-id="6151">4</div>
+                                        </div>
+                                        <div class="fb-share-button" data-href="https://phamthiyen.com/tu-nhiep-phap-c6151.html" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+                                        <!-- <a href="javascript:void(0)" class="printbtn" data-id = "6151"><img src="https://phamthiyen.com/templates/themes/images/icon/printicon.png"></a> -->
+                                    </div>
+                                    <div class="site_barright inmb">
+                                        <div class="stickscroll">
+                                            <div class="box_cate_child_insite">
+                                                <div class="catesiteinparent">
+                                                    <div class="tilesiet">Chuyên mục: Bài Viết Phật Pháp</div>
+                                                </div>
+                                                <div class="list_childcate_insite">
+                                                    <ul>
+                                                                                                                <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="color-default" href="kien-thuc-phat-phap.html">Kiến Thức Phật Pháp</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="phat-phap-va-doi-song.html">Phật Pháp Và Đời Sống</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="thien.html">Thiền</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="tu-nu-ty-kheo-cu-si.html">Tu Nữ - Tỳ Kheo - Cư Sĩ</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="bao-ve-chinh-phap.html">Bảo Vệ Chính Pháp</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="phuong-phap-doi-tri-tam.html">Phương Pháp Đối Trị Tâm</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="so-do-tu-phat-tam.html">Sơ Đồ Tu Phật Tâm</a>
+                                                                                                                    </li>
+                                                                                                                                                                        <li class="itemtcate_child">
+                                                            <span class="iconchild icon-trach-phap"></span>
+                                                            <a class="" href="noi-long-nguoi-con-phat.html">Nỗi Lòng Người Con Phật</a>
+                                                                                                                    </li>
+                                                                                                                                                                    </ul>
+                                                </div>
+                                            </div>
+                                                                                    </div>
+                                    </div>
+                                    <div class="comment-block mt-5">
+                                        <p class="h2 text-main mb-3 mb-lg-4 text-center">
+                                            Bình luận                                         </p>
+                                        <div class="contact-form" style="padding-top: 0;">
+                                            <div id="comments" class="comments-area">
+                                                <div id="respond" class="comment-respond">
+                                                    <p id="reply-title" class="h3 comment-reply-title d-none">
+                                                        Phản hồi cho
+                                                        <a href="javascript:;" class="name"></a>
+                                                        <small>
+                                                            <a rel="nofollow" id="cancel-comment-reply-link"
+                                                                href="javascript:;">Hủy bỏ</a>
+                                                        </small>
+                                                    </p>
+                                                    <form action="#" method="POST" id="commentform" class="comment-form">
+                                                        <input type="hidden" name="news_id" value="6151">
+                                                        <input type="hidden" name="this_link"
+                                                            value="https://phamthiyen.com/tu-nhiep-phap-c6151.html" class="getlinknews">
+                                                        <input type="hidden" name="parent_id" value="0" class="parent_id" />
+                                                        <div class="form-group">
+                                                            <i class="icon-comment"></i>
+                                                            <textarea class="form-control" name="content" id="content" rows="3"
+                                                                aria-required="true"
+                                                                placeholder="Bình luận của bạn *"></textarea>
+                                                        </div>
+                                                        <div class="form-row">
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <i class="icon-user"></i>
+                                                                    <input class="form-control" id="name"
+                                                                        placeholder="Họ và tên *" name="user_name" type="text"
+                                                                        value="" size="30" />
+                                                                    <label class="err_name err_show"></label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col">
+                                                                <div class="form-group">
+                                                                    <i class="icon-mail"></i>
+                                                                    <input name="user_email" value=""
+                                                                        class="form-control dwqa-question-anonymous-email"
+                                                                        type="text" size="30" id="email" name="email"
+                                                                        placeholder="Số điện thoại hoặc email" />
+                                                                    <label class="err_mail err_show"></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="text-center">
+                                                            <div class="g-recaptcha" data-sitekey="6Le9qIUaAAAAAH6UrvYt6wVxbH8mMuNnXQjO8D8L"
+                                                                data-callback="correctCaptchasendcmt_blog"></div>
+                                                        </div>
+
+                                                        <div class="form-submit" style="text-align: center;">
+                                                            <button type="submit" class="btn btn-icon answer_submit_button"
+                                                                id="sendcmt_blog" disabled="disabled">
+                                                                <span class="icon-outline"><i class="icon-sent"></i></span>
+                                                                <span>Gửi bình luận</span>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div
+                                                    style="width: 100px; margin-top: 10px; margin-bottom: 20px; display: block;">
+                                                </div>
+                                                                                                
+                                                <ol class="comment-list comment-list-nodot" id="comment-posts">
+                                                                                                        <li class="comment even thread-even depth-1">
+                                                        <div class="media my-4">
+                                                            <div class="media-img align-self-start mr-3 d-none d-md-block">
+                                                                <a class="media-img align-self-start mr-3 d-none d-md-block av-666" href="javascript:;">
+                                                                    <img alt="" src="templates/themes/images/avatar.png" class="avatar avatar-76 photo img-fluid cy-avatar bgr_fff">
+                                                                </a>
+                                                            </div>
+                                                            <div class="media-body align-self-start">
+                                                                <div class="media mb-3 mb-md-1">
+                                                                    <div class="media-img align-self-end mr-3 d-block d-md-none">
+                                                                        <a class="media-img align-self-start mr-3 d-none d-md-block av-666" href="javascript:;">
+                                                                            <img alt="" src="templates/themes/images/avatar.png" class="avatar avatar-76 photo img-fluid cy-avatar bgr_fff">
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="media-body align-self-end">
+                                                                        <div class="row forum-items--info">
+                                                                            <div class="col-md-auto mr-auto">
+                                                                                <p class="h3 text-main m-0 meta-date">Quản trị trang</p>
+                                                                            </div>
+                                                                            <div class="col-md-auto">
+                                                                                <div class="text-date">28/06/2024</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="comment-text fixtxt-3">Quản trị trang và Chủ sở hữu Website Phạm Thị Yến tuyên bố nghiêm cấm và miễn trừ trách nhiệm đối với mọi bình luận, hình ảnh liên quan đến:  <br>
+- Chủ quyền của đất nước;  <br>
+- Các vấn đề về chính trị;  <br>
+- Các phát ngôn cho mục đích hoặc có dấu hiệu chống lại Đảng, Nhà nước, chia rẽ và gây mất đoàn kết dân tộc, đoàn kết tôn giáo;  <br>
+- Vi phạm hoặc có dấu hiệu vi phạm chính sách, pháp luật của Nhà nước và thuần phong, mỹ tục của dân tộc. <br>
+Cho mục đích trên, chúng tôi tuyên bố có quyền xóa, gỡ bỏ hoặc thực hiện bất kỳ biện pháp nào thuộc quyền của Quản trị trang và Chủ sở hữu; và tố cáo với cơ quan chức năng hoặc thực hiện các biện pháp pháp lý cần thiết để ngăn chặn, xử lý các hành vi vi phạm hoặc hành vi có dấu hiệu vi phạm nêu trên.</div>
+                                                                <div class="showmorecmt"><a href="#" class="showcmt_fixed">Xem thêm</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                                                                                                                        </ol>
+                                                                                                                                                <!-- <div class="alert alert-primary" role="alert">
+                                                    Hãy là người đầu tiên để lại bình luận.
+                                                </div> -->
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="site_barright inpc">
+                            <div class="stickscroll">
+                                                                <div class="box_cate_child_insite">
+                                    <div class="catesiteinparent">
+                                        <div class="tilesiet">Chuyên mục: Bài Viết Phật Pháp</div>
+                                    </div>
+                                    <div class="list_childcate_insite">
+                                        <ul>
+                                                                                        <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="color-default" href="kien-thuc-phat-phap.html">Kiến Thức Phật Pháp</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="phat-phap-va-doi-song.html">Phật Pháp Và Đời Sống</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="thien.html">Thiền</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="tu-nu-ty-kheo-cu-si.html">Tu Nữ - Tỳ Kheo - Cư Sĩ</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="bao-ve-chinh-phap.html">Bảo Vệ Chính Pháp</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="phuong-phap-doi-tri-tam.html">Phương Pháp Đối Trị Tâm</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="so-do-tu-phat-tam.html">Sơ Đồ Tu Phật Tâm</a>
+                                                                                            </li>
+                                                                                                                                    <li class="itemtcate_child">
+                                                <span class="iconchild icon-trach-phap"></span>
+                                                <a class="" href="noi-long-nguoi-con-phat.html">Nỗi Lòng Người Con Phật</a>
+                                                                                            </li>
+                                                                                                                                </ul>
+                                    </div>
+                                </div>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="related-news" style="position: relative; z-index: 1100;">
+    <div class="container">
+        <p class="h2 text-main mb-3 mb-lg-4">Các bài liên quan</p>
+        <div class="cy-carousel slick-carousel-redmor mb-4 mb-lg-5 ">
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="bat-kinh-phap-c6161.html" class="expthumb " title="Bát kỉnh Pháp là gì? Giải mã 8 điều kiện người nữ xuất gia theo lời Phật dạy" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/12/22/bat-kinh-phap-090915.jpg" width="426" height="240" alt="Bát kỉnh Pháp là gì? Giải mã 8 điều kiện người nữ xuất gia theo lời Phật dạy"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="bat-kinh-phap-c6161.html"> Bát kỉnh Pháp là gì? Giải mã 8 điều kiện người nữ xuất gia theo lời Phật dạy</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="tu-nhiep-phap-c6151.html" class="expthumb " title="Tứ nhiếp pháp: 4 cách Phật dạy để thu phục lòng người, được số đông yêu quý" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/11/24/tu-nhiep-phap-141926.jpg" width="426" height="240" alt="Tứ nhiếp pháp: 4 cách Phật dạy để thu phục lòng người, được số đông yêu quý"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="tu-nhiep-phap-c6151.html"> Tứ nhiếp pháp: 4 cách Phật dạy để thu phục lòng người, được số đông yêu quý</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="ta-kien-la-gi-c6147.html" class="expthumb " title="Sự nguy hại của tà kiến - 2 cách diệt trừ để được an vui, hạnh phúc" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/11/10/ta-kien-la-gi-151459.jpg" width="426" height="240" alt="Sự nguy hại của tà kiến - 2 cách diệt trừ để được an vui, hạnh phúc"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="ta-kien-la-gi-c6147.html"> Sự nguy hại của tà kiến - 2 cách diệt trừ để được an vui, hạnh phúc</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="sam-hoi-c4884.html" class="expthumb " title="Sám hối là gì? Muốn tâm bình an, tiêu trừ tội lỗi, phải nên sám hối" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/10/18/sam-hoi-163845.jpg" width="426" height="240" alt="Sám hối là gì? Muốn tâm bình an, tiêu trừ tội lỗi, phải nên sám hối"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="sam-hoi-c4884.html"> Sám hối là gì? Muốn tâm bình an, tiêu trừ tội lỗi, phải nên sám hối</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="kinh-luong-hoang-sam-c4050.html" class="expthumb " title="Lương Hoàng Sám: Nguồn gốc, công năng và cách trì tụng để tiêu nghiệp" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/10/11/phap-dan-luong-hoang-bao-sam-nhat-dinh-phai-tham-gia-neu-muon-chuyen-hoa-nghiep-kho-101305.jpg" width="426" height="240" alt="Lương Hoàng Sám: Nguồn gốc, công năng và cách trì tụng để tiêu nghiệp"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="kinh-luong-hoang-sam-c4050.html"> Lương Hoàng Sám: Nguồn gốc, công năng và cách trì tụng để tiêu nghiệp</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="nui-linh-thuu-c6140.html" class="expthumb " title="Núi Linh Thứu Ấn Độ: Thánh tích linh thiêng gắn với những bộ kinh trọng yếu" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/10/09/nui-linh-thuu-201250.jpg" width="426" height="240" alt="Núi Linh Thứu Ấn Độ: Thánh tích linh thiêng gắn với những bộ kinh trọng yếu"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="nui-linh-thuu-c6140.html"> Núi Linh Thứu Ấn Độ: Thánh tích linh thiêng gắn với những bộ kinh trọng yếu</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="doi-orajhar-noi-duc-phat-len-troi-thuyet-phap-do-mau-than-c6138.html" class="expthumb " title="Đồi Orajhar Ấn Độ: Nơi Đức Phật hiện thần thông chiết phục ngoại đạo" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/10/09/doi-orajhar-noi-duc-phat-len-troi-thuyet-phap-do-mau-than-175548.jpg" width="426" height="240" alt="Đồi Orajhar Ấn Độ: Nơi Đức Phật hiện thần thông chiết phục ngoại đạo"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="doi-orajhar-noi-duc-phat-len-troi-thuyet-phap-do-mau-than-c6138.html"> Đồi Orajhar Ấn Độ: Nơi Đức Phật hiện thần thông chiết phục ngoại đạo</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="le-vu-lan-c3866.html" class="expthumb " title="Vu Lan – Tháng đại phúc: Cơ hội quý báu để báo đền ân đức sinh thành" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/08/12/le-vu-lan-152128.jpg" width="426" height="240" alt="Vu Lan – Tháng đại phúc: Cơ hội quý báu để báo đền ân đức sinh thành"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="le-vu-lan-c3866.html"> Vu Lan – Tháng đại phúc: Cơ hội quý báu để báo đền ân đức sinh thành</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="cau-sieu-la-gi-c3849.html" class="expthumb " title="Cầu siêu: Cách giúp hương linh bớt khổ đau, người sống thêm phước lành" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/08/31/cau-sieu-la-gi-cac-yeu-to-can-co-de-viec-cau-sieu-duoc-thanh-tuu-141633.jpg" width="426" height="240" alt="Cầu siêu: Cách giúp hương linh bớt khổ đau, người sống thêm phước lành"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="cau-sieu-la-gi-c3849.html"> Cầu siêu: Cách giúp hương linh bớt khổ đau, người sống thêm phước lành</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="niet-ban-la-gi-c4345.html" class="expthumb " title="Cõi Niết bàn và cách đạt đến Niết bàn, được hạnh phúc tuyệt đối" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/08/01/niet-ban-la-gi-085028.jpg" width="426" height="240" alt="Cõi Niết bàn và cách đạt đến Niết bàn, được hạnh phúc tuyệt đối"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="niet-ban-la-gi-c4345.html"> Cõi Niết bàn và cách đạt đến Niết bàn, được hạnh phúc tuyệt đối</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="12-nhan-duyen-c3294.html" class="expthumb " title="Thập nhị nhân duyên: Hiểu rõ để giảm trừ phiền não, giải thoát khổ đau" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/08/01/12-nhan-duyen-090110.jpg" width="426" height="240" alt="Thập nhị nhân duyên: Hiểu rõ để giảm trừ phiền não, giải thoát khổ đau"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="12-nhan-duyen-c3294.html"> Thập nhị nhân duyên: Hiểu rõ để giảm trừ phiền não, giải thoát khổ đau</a></p>
+                    </div>
+                </div>
+            </div>
+                        <div class="cy-carousel-item">
+                <div class="card card-shadow card-sm" style="max-height: 380px;">
+                    <a href="loi-ich-3-thang-an-cu-kiet-ha-cho-nguoi-tai-gia-va-cach-tu-tap-c3846.html" class="expthumb " title="3 tháng an cư kiết hạ – cơ hội gieo trồng cội phúc, vào hướng quả" ><img class="card-img-top img-fluid" loading=lazy src="../media.phamthiyen.com/files/news/2025/06/15/loi-ich-3-thang-an-cu-kiet-ha-cho-nguoi-tai-gia-va-cach-tu-tap-225319.jpg" width="426" height="240" alt="3 tháng an cư kiết hạ – cơ hội gieo trồng cội phúc, vào hướng quả"  /></a>                    <div class="card-body">
+                        <p class="h3 text-main"><a href="loi-ich-3-thang-an-cu-kiet-ha-cho-nguoi-tai-gia-va-cach-tu-tap-c3846.html"> 3 tháng an cư kiết hạ – cơ hội gieo trồng cội phúc, vào hướng quả</a></p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section> 
+<div class="z" style="position: relative; z-index: 1100;">
+<section class="home-mostread">
+    <div class="container">
+        <div class="home-title d-flex align-items-center justify-content-between">
+            <p class="h2 text-main mb-0 w-75">Đọc Nhiều Nhất Trên Trang</p>
+        </div>
+        <div class="new-features my-3">
+            <div  class="cy-carousel slick-dots-inline cy-carousel-arrow slick-carousel-redmor">
+                            <div class="cy-carousel-item mb-3">
+                    <div class="card card-shadow card-sm">
+                        <a href="danh-sach-7-video-tu-tap-lan-45-sau-sam-hoi-chu-tang-c6168.html" class="expthumb card-img-wrap" title="Danh sách 7 video tu tập lần 45 sau sám hối chư Tăng" ><img class="card-img-top img-fluid" loading=lazy src="templates/themes/images_news/pty_defalt.jpg" width="312" height="175.5" alt="Danh sách 7 video tu tập lần 45 sau sám hối chư Tăng"  /></a>                        <div class="card-body">
+                            <div class="cy-prev-next">
+                                <span class="slick-custom-arrow prev"></span>
+                                <span class="slick-custom-arrow next"></span>
+                            </div>
+                            <p class="mb-2 text-primary cy-carousel-arrow-pd10">316 lần đọc</p>
+                            <p class="h3 text-main mb-3"> <a href="danh-sach-7-video-tu-tap-lan-45-sau-sam-hoi-chu-tang-c6168.html">Danh sách 7 video tu tập lần 45 sau sám hối chư Tăng</a></p>
+                            <a class="see-more text-primary float-right" href="danh-sach-7-video-tu-tap-lan-45-sau-sam-hoi-chu-tang-c6168.html">Chi tiết<span class="ml-2 icon-next"></span></a>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+        </div>
+    </div>
+</section></div>
+<script>
+        window.addEventListener("pageshow", function(event) {
+        if (event.persisted) {
+                // Trang được load từ cache (bấm back)
+                console.log("Back but not reloaded");
+            }
+        });
+        var news_id = $('#btn-load-more-comments').attr('data-id');
+        var d = new Date();
+        let loadmore = document.querySelector("#btn-load-more-comments");
+        if(loadmore) loadmore.addEventListener("click", onLoad_cate);
+        var page = 0;
+        function onLoad_cate() {
+            page++;
+            $.ajax({
+                url: "?mod=iframe&act=loadcmt",
+                method: "get",
+                data: {
+                    news_id: news_id,
+                    page: page,
+                    count: 5,
+                    v: d.getSeconds()
+                },
+            }).done(function(data) {
+                if (!data) {
+                    loadmore.remove();
+                }
+                $("#comment-posts").append(data);
+            });
+        }
+
+
+    $('.plus_btn').on('click', function() {
+        sizep = $('.this_detaill_size p').css("font-size");
+        sizeh = $('.this_detaill_size h2').css("font-size");
+        sizeh3 = $('.this_detaill_size h3').css("font-size");
+        sizep = parseInt(sizep, 10);
+        sizeh = parseInt(sizeh, 10);
+        sizeh3 = parseInt(sizeh3, 10);
+        if (sizep < 25) {
+            $('.this_detaill_size p').css({ "font-size": sizep + 1});
+            $('.this_detaill_size p *').css({ "font-size": sizep + 1});
+            $('.this_detaill_size h2 *').css("font-size", sizeh + 1);
+            $('.this_detaill_size h3 *').css("font-size", sizeh3 + 1);
+        }
+    });
+    $('.minus_btn').on('click', function() {
+        sizep = $('.this_detaill_size p').css("font-size");
+        sizeh = $('.this_detaill_size h2').css("font-size");
+        sizeh3 = $('.this_detaill_size h3').css("font-size");
+        sizep = parseInt(sizep, 10);
+        sizeh = parseInt(sizeh, 10);
+        sizeh3 = parseInt(sizeh3, 10);
+        if (sizep >15) {
+            $('.this_detaill_size p').css({ "font-size": sizep - 1});
+            $('.this_detaill_size p *').css({ "font-size": sizep - 1});
+            $('.this_detaill_size h2 *').css("font-size", sizeh - 1);
+            $('.this_detaill_size h3 *').css("font-size", sizeh3 - 1);
+        }
+    });
+    $('.showcmt_fixed').on('click', function(e) {
+        e.preventDefault();
+        $(this).parents('.media-body').find('.comment-text').removeClass('fixtxt-3');
+        $(this).parent('.showmorecmt').remove();
+    });
+    var url_page = $('.getlinknews').val();
+    const shareData = {
+      title: "Share link",
+      url: url_page,
+    };
+
+    const btn = document.querySelector(".tooolshaare");
+
+
+    // Share must be triggered by "user activation"
+    btn.addEventListener("click", async () => {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        console.log(err);
+      }
+    });
+    
+</script>
+    <footer class="footer">
+    <div class="container text-center">
+        <p class="footer-title">Phạm Thị Yến</p>
+        <p class="footer-subtitle">Tâm Chiếu Hoàn Quán</p>
+        <div class="d-flex footer-links justify-content-center">
+            <ul id="menu-footer-menu" class="list-unstyled d-flex flex-wrap justify-content-center">
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="clb-cuc-vang.html" target="_self">
+                            <span>CLB Cúc Vàng</span>
+                        </a>
+                    </li>
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="chuong-trinh-tu-tap.html" target="_self">
+                            <span>Chương Trình Tu Tập</span>
+                        </a>
+                    </li>
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="tam-linh-nghi-le.html" target="_self">
+                            <span>Nghi Lễ</span>
+                        </a>
+                    </li>
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="bai-viet-phat-phap.html" target="_self">
+                            <span>Bài Viết Phật Pháp</span>
+                        </a>
+                    </li>
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="cau-chuyen-chuyen-hoa.html" target="_self">
+                            <span>Câu Chuyện Chuyển Hóa</span>
+                        </a>
+                    </li>
+                                    <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                        <a href="am-nhac-phat-giao.html" target="_self">
+                            <span>Nhạc Phật Giáo</span>
+                        </a>
+                    </li>
+                                <li class="menu-item" style="margin-right: 10px; margin-left: 10px;">
+                    <a href="giai-dap-thac-mac/index.html" target="_self">
+                        <span>Giải đáp thắc mắc</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex footer-socials justify-content-center">
+            <ul class="social-icons list-unstyled d-flex justify-content-center flex-wrap">
+                <li class="social-icon">
+                    <a class="icon icon-facebook" title="Facebook" href="https://www.facebook.com/PhamThiYen.TamChieuHoanQuan1970" target="_blank" rel="nofollow"></a>
+                </li>
+                <li class="social-icon ml-3">
+                    <a class="icon icon-tiktok" title="Tiktok" href="https://www.tiktok.com/@cophamthiyen" target="_blank" rel="nofollow">
+                        <img loading="lazy" src="templates/themes/images/icon/tiktok9e36.png?v" alt="" /> 
+                    </a>
+                </li>
+                <li class="social-icon ml-3"><a class="icon icon-youtube" title="Youtube" href="https://www.youtube.com/channel/UCu5HaWzvxi_ueJS4lFxUZVA?reload=9&amp;sub_confirmation=1" target="_blank" rel="nofollow"></a></li>
+                <li class="social-icon ml-3"><a class="icon icon-instagram" title="Instagram" href="https://www.instagram.com/phamthiyen.tchq/" target="_blank" rel="nofollow"></a></li>
+                <!-- <li class="social-icon ml-3">
+                    <a class="icon " title="Zingmp3" href="https://zingmp3.vn/indie/Pham-Thi-Yen" target="_blank" rel="nofollow">
+                        <img loading="lazy" src="https://phamthiyen.com/templates/themes/images/icon/zingmp3.png" alt="" /> 
+                    </a>
+                </li> -->
+                <li class="social-icon ml-3">
+                    <a class="icon " title="spotify" href="https://open.spotify.com/artist/34ReWGlbqiWw76MUK1VEx9/discography/all" target="_blank" rel="nofollow">
+                        <img loading="lazy" src="templates/themes/images/icon/spotify.png" alt="" /> 
+                    </a>
+                </li>
+                <li class="social-icon ml-3">
+                    <a class="icon " title="spotify" href="https://open.spotify.com/show/39t5awYNhcWtwM2kGEThuY?si=51320223de3c4bfb&amp;nd=1&amp;dlsi=62745cdc96a94c98" target="_blank" rel="nofollow">
+                        <img loading="lazy" src="templates/themes/images/icon/podcasts.svg" alt="" /> 
+                    </a>
+                </li>
+                <!-- <li class="social-icon ml-3"><a class="icon icon-nhac-cua-tui" title="Nhạc của tui" href="https://www.nhaccuatui.com/user/phamthiyentchq.playlist.3.html" target="_blank" rel="nofollow"></a></li> -->
+            </ul>
+        </div>
+        <p class="text-center">
+            Mọi thắc mắc xin liên hệ theo số Hotline:
+            <a href="tel:038 669 0818" style="display: inline-block;">038 669 0818</a>
+        </p>
+        <div class="copyright text-uppercase">COPYRIGHT © 2018. CREATED BY PHẠM THỊ YẾN (TÂM CHIẾU HOÀN QUÁN)</div>
+        <div class="text-center">
+            <a href="https://www.dmca.com/Protection/Status.aspx?ID=5ee2ac29-7d64-41cd-94e9-d3f6f8a9d1d7&amp;refurl=https://phamthiyen.com/" title="DMCA.com Protection Status" class="dmca-badge">
+                <img loading="lazy" src="../images.dmca.com/Badges/dmca-badge-w150-5x1-090c4d.png?ID=5ee2ac29-7d64-41cd-94e9-d3f6f8a9d1d7" alt="DMCA.com Protection Status" />
+            </a>
+            <script src="../images.dmca.com/Badges/DMCABadgeHelper.min.js" type="text/javascript"></script>
+        </div>
+    </div>
+</footer>
+<section class="modal fade" id="ytbModal" tabindex="-1" role="dialog" aria-labelledby="ytbModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe loading="lazy" class="embed-responsive-item" id="ytbVideo" src="#" allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    <div class="backToTop"> <span class="icon-up"></span></div>
+    <div id="snackbar">Cảm ơn bạn đã để lại câu hỏi, câu hỏi của bạn đã được gửi tới quản trị viên để xác nhận!</div>
+        <script src="templates/themes/js/aos.js"></script>
+
+    <script src="templates/themes/js/pagination.js"></script>
+    <script src="templates/themes/js/swiper-bundle.min.js"></script>
+    <script src="templates/themes/js/sly.min.js"></script>
+    <script src="templates/themes/js/slick.min.js"></script>
+    <script src="templates/themes/js/bootstrap.min.js"></script>
+    
+    <script src="templates/themes/js/jquery.matchHeight-min.js"></script>
+    <script src="templates/themes/js/jquery.toast.js"></script>
+    <script src="templates/themes/js/select2.min.js"></script>
+    <script src="templates/themes/js/blog-comments.js"></script>
+    <script src="templates/themes/js/customdaf2.js?0.0.335"></script>
+    <script src="templates/themes/js/toc9fa1.js?v=0.0.335"></script>
+        <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat Plugin code -->
+    
+    
+    <!--
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+    <script type="text/javascript">
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "407919480048902");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    -->
+
+    <!-- Your SDK code -->
+    <!-- <script type="text/javascript">
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> -->
+    <!-- hết -->
+    <script async defer crossorigin="anonymous" src="../connect.facebook.net/vi_VN/sdk.js#xfbml=1&autoLogAppEvents=1&version=v15.0" nonce="xPzxqNLV"></script>
+    <script type="text/javascript">
+        var correctCaptcha = function(response) {
+            if (response) {
+                var btn_submit = document.getElementById('senquestion_cmt');
+                btn_submit.disabled = "";
+            }
+        }
+        var correctCaptchasendcmt_blog = function(response) {
+            if (response) {
+                var btn_submit = document.getElementById('sendcmt_blog');
+                btn_submit.disabled = "";
+            }
+        }
+
+        var correctCaptchasend_mail = function(response) {
+            if (response) {
+                var btn_submit = document.getElementById('send_mail');
+                btn_submit.disabled = "";
+            }
+        }
+    </script>
+    <script src="../www.google.com/recaptcha/api3e4a.js?onload=correctCaptcha" async defer></script>
+    <script src="../www.google.com/recaptcha/api6ca4.js?onload=correctCaptchasendcmt_blog" async defer></script>
+    <script src="../www.google.com/recaptcha/apif918.js?onload=correctCaptchasend_mail" async defer></script>
+
+    <!-- <script src="https://sp.zalo.me/plugins/sdk.js"></script> -->
+    </div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ffbaa1ed897f448690e75521364cb60d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from phamthiyen.com/tu-nhiep-phap-c6151.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 Feb 2026 16:40:14 GMT -->
+</html>
+
+
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+            $('.click_in_like').click(function() {
+            news_id = $(this).data('id');
+            cname = 'like_' + news_id;
+            enable_like = 'enable_like_' + news_id;
+            var d = new Date();
+            var time = d.getTime();
+
+            if(getCookie_update(enable_like) == ''){
+                setCookie_update(enable_like, '1', '1');
+            }
+            else{
+                var enable_like_val = parseInt(getCookie_update(enable_like)) + 1;
+                setCookie_update(enable_like, enable_like_val, '1');
+            }  
+
+            if($(this).find('.andlike').hasClass('news_liked')){
+                $('.andlike').removeClass('news_liked');
+                var unlikeCount = parseInt($(this).parents('.boxlike').find('.numlike').text()) - 1;
+                if(!unlikeCount || unlikeCount<0) unlikeCount=0;
+                $('.numlike').text(unlikeCount);
+                deleteCookie(cname);
+                $.ajax({
+                    url: '/?mod=news&act=unlike&t=' + time,
+                    type: 'GET',
+                    data: {
+                        news_id: news_id,
+                        status: '0',
+                    },
+                });
+            }
+            else{
+                if(getCookie_update(enable_like) > 8 ){
+                    alert('Bạn đã sử dụng chức năng này quá nhiều. Bạn phải đợi 24h nữa mới được thao tác tiếp');
+                }
+                else{
+                    $('.andlike').addClass('news_liked');
+                    var unlikeCount = parseInt($(this).parents('.boxlike').find('.numlike').text()) + 1;
+                    console.log(unlikeCount);
+                    if(!unlikeCount || unlikeCount<0) unlikeCount=0;
+                    $('.numlike').text(unlikeCount);
+                    setCookie_update(cname, '1', '365');
+                    $.ajax({
+                        url: '/?mod=news&act=unlike&t=' + time,
+                        type: 'GET',
+                        data: {
+                            news_id: news_id,
+                            status: '1',
+                        },
+                    });
+                }
+                
+            }
+        });
+    });
+
+    function getCookie_update(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) {
+                return c.substring(nameEQ.length, c.length);
+            };
+            
+        }
+        return null;
+    }
+
+    function setCookie_update(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    function deleteCookie(cname) {
+        document.cookie = cname + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    };
+</script>
+    <script src="templates/themes/js/main9fa1.js?v=0.0.335"></script>
+    
+    <!-- lich âm dương -->
+    <script src="../cdn.jsdelivr.net/npm/js-cookie%40rc/dist/js.cookie.min.js"></script>
+        <!-- hết -->
+
+
+    <script>
+        function isNumberKey(e) {
+            var charCode = (e.which) ? e.which : e.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+            return true;
+        }
+        function numberMobile(e){
+            e.target.value = e.target.value.replace(/[^\d]/g,'');
+            return false;
+        }
+        function showList(e) {
+            var $gridCont = $('.grid-container');
+            e.preventDefault();
+            $gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
+        }
+
+        function gridList(e) {
+            var $gridCont = $('.grid-container')
+            e.preventDefault();
+            $gridCont.removeClass('list-view');
+        }
+
+        $(document).on('click', '.btn-grid', gridList);
+        $(document).on('click', '.btn-list', showList);
+
+        $('a[href^="#"]').click(function(e){
+            // e.preventDefault();
+            // $('html, body').animate({
+            //     scrollTop: ($($(this).attr('href')).offset().top - 100)
+            // }, 500);
+            // return false;
+        });
+        $('button.v-list').click(function() {
+            $('.module').removeClass('active_tabimage');
+            $('.load_library_image').addClass('active_tabimage');
+            $('.top-news_photto').addClass('active_hide');
+            $('.hide-xem-them').addClass('hide-photo');
+            $(this).addClass('active');
+            $('button.v-grid').removeClass('active');
+        });
+
+        $('button.v-grid').click(function() {
+            $('.load_library_image').removeClass('active_tabimage');
+            $('.module').addClass('active_tabimage');
+            $(this).addClass('active');
+            $('.top-news_photto').removeClass('active_hide');
+            $('.hide-xem-them').removeClass('hide-photo');
+            $('button.v-list').removeClass('active');
+        });
+
+    	$( ".close" ).click(function() {
+    	  $( ".live-text" ).remove();
+    	});
+        $(".backToTop").on("click", function (e) {
+            $("html, body").animate({scrollTop: 0}, 600)
+        });
+        $(".navmb_brea").on("click", function (e) {
+            if($('.list_sitebarmb').hasClass('op')){
+                $('.list_sitebarmb').removeClass('op');
+            }else{
+                $('.list_sitebarmb').addClass('op');
+            }
+        });
+        $(".show_allcmt_child").on("click", function (e) {
+            $(this).parents('.children').find('.readmore_child').removeClass('readmore_child');
+            $(this).remove();
+        });
+        $('.printbtn').on( 'click', function( e ) {
+            var news_id = $(this).attr('data-id');
+            var url_print = '/?mod=iframe&act=detail_print&id='+news_id+'&printed=1';
+            window.open(url_print,'_blank');
+        });
+    </script>
+</body>
+<div class="loading_submit" style="display: none;">
+    <div class="imgloading">
+        <img src="templates/themes/images/loading-icon-animated-gif-7.jpg">
+    </div>
+</div>
+
+</html>
